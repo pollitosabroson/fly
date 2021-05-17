@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     # Appa
     'envs',
     'channels',
+    'contents',
 ]
 
 MIDDLEWARE = [
