@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # Appa
+    # third party
+    'rest_framework',
+    # Apps
     'envs',
     'channels',
     'contents',
