@@ -1,6 +1,6 @@
 # Test Fly
 
-API Manage channels and cpontent
+API Manage channels and content
 
 ## Getting Started
 
@@ -18,7 +18,7 @@ Make sure that you have met the following prerequisites before continuing with t
 * Logged in as a user with sudo privileges or Admin user for MAC.
 * Have [Docker](https://docs.docker.com/install/) installed
 
-### Installing 
+### Installing
 
 To install the project, we must access the docker folder, after the environment we are going to execute, in this case it is the one of dev and we execute the following commands.
 
@@ -46,7 +46,7 @@ To install the project, we must access the docker folder, after the environment 
 
 * Access
 
-    * API: [localhost:8091](http://localhost:8091/)
+    * API: [localhost:8090](http://localhost:8090/)
 
 ## Running the tests
 
