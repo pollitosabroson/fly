@@ -25,7 +25,7 @@ class Command(BaseCommand):
         "example to execution: python manage.py create_csv"
     )
 
-    HEADERS = ['id', 'public_id', 'chanel_name', 'average', ]
+    HEADERS = ['channel title', 'average rating', ]
 
     def add_arguments(self, parser):
         """Add Arguments."""
@@ -48,7 +48,6 @@ class Command(BaseCommand):
         for channel in tqdm(channels):
             list_channels.append(
                 [
-                    channel.id, channel.public_id,
                     channel.title, channel.score
                 ]
             )
