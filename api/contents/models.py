@@ -12,7 +12,7 @@ class Content(
     channel = models.ForeignKey(
         Channel,
         models.DO_NOTHING,
-        related_name='channels',
+        related_name='content',
         blank=False, null=False
     )
 
