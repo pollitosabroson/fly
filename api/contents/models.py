@@ -20,7 +20,7 @@ class Content(
         Attributes,
         models.DO_NOTHING,
         related_name='kinds',
-        limit_choices_to={'envs_type_name': 'content'}
+        limit_choices_to={'envs_type__name': 'content'}
     )
 
     content = models.FileField(
