@@ -1,8 +1,8 @@
 import logging
 
-from django.contrib.postgres.fields.jsonb import KeyTextTransform
 from django.db import models
 from django.db.models import Count, F, Sum
+from django.db.models.fields.json import KeyTextTransform
 from django.db.models.functions import Cast, Coalesce
 
 logger = logging.getLogger(__name__)
