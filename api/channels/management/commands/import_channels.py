@@ -15,10 +15,10 @@ logger = logging.getLogger(__name__)
 
 
 class Command(BaseCommand):
-    """Command to update all references."""
+    """Command for create channels."""
 
     help = (
-        "Command to update all references."
+        "Command for create channels."
         "example to execution: python manage.py import_channels"
     )
 

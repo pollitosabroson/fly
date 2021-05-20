@@ -18,10 +18,10 @@ def csv_name(str_name):
 
 
 class Command(BaseCommand):
-    """Command to update all references."""
+    """Command for create csv with avergares."""
 
     help = (
-        "Command to update all references."
+        "Command for create csv with avergares."
         "example to execution: python manage.py create_csv"
     )
 
