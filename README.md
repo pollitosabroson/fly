@@ -60,3 +60,7 @@ To run the tests just execute them via docker exec
 Show all folders that are divided by environment
 * DEV
     * docker/dev
+
+## DEV
+
+![alt text](https://raw.githubusercontent.com/pollitosabroson/fly/main/Screen%20Shot%202021-05-20%20at%2017.35.36.png)
