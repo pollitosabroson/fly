@@ -22,4 +22,3 @@ repos:
     rev: 5.7.0
     hooks:
     - id: isort
-      args: [--application-directorie:api]
