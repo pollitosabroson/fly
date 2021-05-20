@@ -13,7 +13,5 @@ RUN  apt-get update && apt-get install -y gettext
 # install python dependencies
 RUN pip install -U -r requirements.txt
 
-# RUN django-admin startproject immfly
-
 # create unprivileged user
 RUN adduser --disabled-password --gecos '' myuser
