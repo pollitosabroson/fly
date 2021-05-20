@@ -2,6 +2,7 @@ from django.urls import path, re_path
 
 from . import views
 
+app_name = 'channels'
 urlpatterns = [
     path(
         '',
@@ -10,7 +11,7 @@ urlpatterns = [
                 'get': 'list'
             }
         ),
-        name='create_list_channel'
+        name='list_channel'
     ),
     re_path(
         r'^(?P<public_id>[\w\-]+)/subchannels$',
@@ -19,7 +20,7 @@ urlpatterns = [
                 'get': 'list'
             }
         ),
-        name='list_envs'
+        name='list_subchanels'
     ),
     re_path(
         r'^(?P<public_id>[\w\-]+)/contents$',
@@ -28,6 +29,6 @@ urlpatterns = [
                 'get': 'list'
             }
         ),
-        name='list_envs'
+        name='list_content'
     ),
 ]
