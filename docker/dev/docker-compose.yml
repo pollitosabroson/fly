@@ -38,10 +38,3 @@ services:
       - redis
     ports:
       - "8090:5560"
-
-  redis:
-    build: redis/
-    volumes:
-      - ./redis/data:/data
-      - ./redis/shared:/sharedfolder
-      - ./redis/config/redis.conf:/usr/local/etc/redis/redis.conf
