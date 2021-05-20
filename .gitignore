@@ -145,5 +145,5 @@ docker/**/shared/
 Desktop.ini
 
 # API static files
-
 api/staticfiles/
+api/media/
